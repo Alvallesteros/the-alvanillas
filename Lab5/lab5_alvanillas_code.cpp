@@ -22,7 +22,7 @@ int main(void) {
     int* numArr = new int[T];
     for (int i = 0; i < T; i++) {
         cout << "Input number of Points: ";
-        while (!(cin >> N) || N <= 0 ) { // Test Cases Input Validation
+        while (!(cin >> N) || N <= 1 ) { // Number of Points Input Validation
             cout << "Invalid Input." << endl;
             cin.clear();
             cin.ignore();
